@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/linearLayout"
+              android:background="@color/colortheme"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:background="@drawable/phone"
+            android:layout_weight="3">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fill_all_details"
+                android:id="@+id/txt_product_self_serve"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signup_activate"
+                android:id="@+id/txt_product_slider"
+                android:textSize="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_above="@+id/txt_product_self_serve"
+                android:layout_marginRight="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_36sdp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+        <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/clipboard"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:layout_above="@+id/txt_product_slider"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true">
+
+            <ImageView android:layout_width="@dimen/_16sdp"
+                       android:layout_height="@dimen/_16sdp"
+                       android:background="@drawable/selected_indicator"/>
+
+            <ImageView android:layout_width="@dimen/_16sdp"
+                       android:layout_height="@dimen/_16sdp"
+                       android:background="@drawable/unselected_indicator"/>
+
+            <ImageView android:layout_width="@dimen/_16sdp"
+                       android:layout_height="@dimen/_16sdp"
+                       android:background="@drawable/unselected_indicator"/>
+
+            <ImageView android:layout_width="@dimen/_16sdp"
+                       android:layout_height="@dimen/_16sdp"
+                       android:background="@drawable/unselected_indicator"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

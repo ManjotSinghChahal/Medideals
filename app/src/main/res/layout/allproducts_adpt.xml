@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#EFEFF4"
+              android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_6sdp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:layout_width="@dimen/_52sdp"
+                            android:layout_height="@dimen/_52sdp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/logo"
+                            android:layout_marginTop="@dimen/_16sdp"/>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lin_orderDetails"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:orientation="vertical">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_15sdp"
+                                    android:textStyle="bold"
+                                    android:id="@+id/productName_showAllProduct"
+                                    android:textColor="@color/colorBlack"
+                                    android:text="ACIVIR CREAM CIPLA"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/productDesc_showAllProduct"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:textSize="@dimen/_13sdp"
+                                    android:text="5GM"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:text="@string/qty"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:id="@+id/productQty_showAllProduct"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:layout_marginLeft="@dimen/_6sdp"
+                                    android:text="50"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:text="@string/mrp"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:id="@+id/productMrpPrice_showAllProduct"
+                                    android:layout_marginLeft="@dimen/_6sdp"
+                                    android:text="Rs. 290.00"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:layout_marginBottom="@dimen/_4sdp"
+                                android:orientation="horizontal">
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:text="@string/new_price_c"/>
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textColor="@color/color_textcolor_blackish"
+                                    android:id="@+id/productNewPrice_showAllProduct"
+                                    android:layout_marginLeft="@dimen/_6sdp"
+                                    android:text="Rs. 217.00"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginTop="@dimen/_6sdp"
+                  android:layout_marginBottom="@dimen/_6sdp"
+                  android:background="@color/color_light_brown">
+
+            </View>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginBottom="@dimen/_7sdp">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal">
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent">
+
+                        <RelativeLayout
+                                android:layout_width="@dimen/_55sdp"
+                                android:layout_height="@dimen/_32sdp"
+                                android:layout_centerInParent="true"
+                                android:id="@+id/editProd_AllProducts"
+                                android:background="@drawable/rounded_theme_full">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/colorWhite"
+                                    android:text="@string/edit"/>
+
+                        </RelativeLayout>
+
+
+
+                    </RelativeLayout>
+
+                    <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginBottom="@dimen/_3sdp"
+                            android:background="@color/colortheme"></View>
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1.2"
+                                    android:layout_height="match_parent">
+
+                        <RelativeLayout
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_32sdp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rounded_theme_full">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/colorWhite"
+                                    android:text="@string/add_loc"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginBottom="@dimen/_3sdp"
+                            android:background="@color/colortheme"></View>
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1.2"
+                                    android:layout_height="match_parent">
+
+                        <RelativeLayout
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_32sdp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rounded_theme_full">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/colorWhite"
+                                    android:text="@string/view_loc"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginBottom="@dimen/_3sdp"
+                            android:background="@color/colortheme"></View>
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent">
+
+                        <RelativeLayout
+                                android:layout_width="@dimen/_55sdp"
+                                android:layout_height="@dimen/_32sdp"
+                                android:layout_centerInParent="true"
+                                android:id="@+id/delProd_allProduct"
+                                android:background="@drawable/rounded_theme_full">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textColor="@color/colorWhite"
+                                    android:text="@string/delete"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+            android:checkableBehavior="single"
+    android:id="@+id/group_1">
+        <item android:id="@+id/nav_item_home"
+              android:title="Home" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_2">
+        <item android:id="@+id/nav_item_myAcc"
+              android:title="My Account" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_3">
+        <item android:id="@+id/nav_item_allopathic"
+              android:title="Allopathic" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_4">
+        <item android:id="@+id/nav_item_ayurvedic"
+              android:title="Ayurvedic" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_5">
+        <item android:id="@+id/nav_item_fmcg"
+              android:title="FMCG" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_6">
+        <item android:id="@+id/nav_item_pcd"
+              android:title="PCD/3rd Party" />
+    </group>
+
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_7">
+        <item android:id="@+id/nav_item_surgicalGoods"
+              android:title="Surgical Goods" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_8">
+        <item android:id="@+id/nav_item_generics"
+              android:title="Generics" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_9">
+        <item android:id="@+id/nav_item_contact_us"
+              android:title="Contact Us" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_10">
+        <item android:id="@+id/nav_item_settings"
+              android:title="Settings" />
+    </group>
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_11">
+        <item android:id="@+id/nav_item_logout"
+              android:title="Logout" />
+    </group>
+
+
+</menu>

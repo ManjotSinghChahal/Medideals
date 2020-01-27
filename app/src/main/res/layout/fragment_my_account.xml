@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ui.activities.home.myAccount.MyAccount">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/seller_zone"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:textSize="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_blue_full"
+                        android:id="@+id/wholesellerZone_myAcc"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/user_lock"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorWhite"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/wholeseller_zone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:id="@+id/addProduct_myAcc"
+                        android:background="@drawable/rounded_green"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_24sdp"
+                            android:background="@drawable/add_package"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/add_roduct"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_yellow_full"
+                        android:id="@+id/allProduct_myAcc"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/list"
+                           android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/show_all__roduct"/>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/subscription_myAcc"
+                        android:background="@drawable/rounded_red_full"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/package_rect"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/colorWhite"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_12sdp"
+                            android:text="@string/subscription"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:id="@+id/orderReceived_myAcc"
+                        android:background="@drawable/rounded_blue_full"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/shopping_bag"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/order_received"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/bankDetails_myAcc"
+                        android:background="@drawable/rounded_green"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_25sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/bank_building"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/bank_details"/>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/buyer_zone"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:textSize="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_blue_full"
+                        android:id="@+id/orderPlaced_myAcc"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/package_rect"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:textColor="@color/colorWhite"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/order_placed"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/rounded_green"
+                        android:id="@+id/enquiryForm_myAcc"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/file"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/enquiry_form"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_yellow_full"
+                        android:id="@+id/showResponses_myAcc"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/list"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/show_responses"/>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_red_full"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:backgroundTint="@color/colorWhite"
+                            android:background="@drawable/track_order"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:textColor="@color/colorWhite"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/track_order"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/rounded_green"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/file"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_16sdp"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/enquiry_form"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:visibility="invisible"
+                        android:background="@drawable/rounded_yellow_full"
+                        android:orientation="vertical"
+                        android:layout_height="@dimen/_100sdp">
+                    <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_24sdp"
+                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:background="@drawable/list"
+                            android:layout_centerHorizontal="true"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sdp"
+                            android:text="@string/show_responses"/>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

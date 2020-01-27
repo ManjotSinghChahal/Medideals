@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/id_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_13sdp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/id"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:elevation="@dimen/_6sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorBlack"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_idBankDet"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/bankName_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/bank_name"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:id="@+id/txt_bankName_BankDet"
+                            android:gravity="center"
+                            android:textColor="@color/colorBlack"
+                            android:singleLine="true"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/bankAcc_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/bank_acc"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_bankAcc_BankDet"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/ifscCode_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/ifsc_code"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_ifscCode_BankDet"
+                            android:singleLine="true"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/bankAdd_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/bank_address"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorBlack"
+                            android:layout_gravity="center"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_bankAdd_BankDet"
+                            android:singleLine="true"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/phNo_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_13sdp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/ph_no"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_phNo_BankDet"
+                            android:textColor="@color/colorBlack"
+                            android:singleLine="true"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"
+                    />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/upiNo_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_13sdp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/upi_no"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/colorBlack"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_upiNo_BankDet"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/InsertDate_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/insert_date"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorBlack"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_insertDate_BankDet"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/firmNo_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/firm_no"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorBlack"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_firmNo_BankDet"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:id="@+id/vendorId_bankDetails"
+                        app:cardBackgroundColor="@color/colortheme">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:textSize="@dimen/_13sdp"
+                            android:textColor="@color/colorWhite"
+                            android:text="@string/vendorid"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        app:cardBackgroundColor="@color/color_light_grey"
+                        android:layout_marginTop="@dimen/_6sdp">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:textColor="@color/colorBlack"
+                            android:paddingLeft="@dimen/_4sdp"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:id="@+id/txt_vendorId_BankDet"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/colorWhite"
+                            android:textSize="@dimen/_14sdp"/>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+</LinearLayout>

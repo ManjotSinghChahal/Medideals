@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">MediDeals</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="login">Login</string>
+    <string name="contact_us">Contact US</string>
+    <string name="register">Register</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="mobile">Mobile</string>
+    <string name="choose_acc_type">Choose Account Type</string>
+    <string name="choose_a_category">Choose A Category</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="name">Name</string>
+    <string name="message">MESSAGE</string>
+    <string name="user_name">User name</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="not_received_otp">Didn\'t receive OTP?</string>
+    <string name="signup">Sign Up</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="retailer">Retailer</string>
+    <string name="pcd_comany">PCD Company</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="submit">Submit</string>
+    <string name="settings">Settings</string>
+    <string name="review_cart">Review Cart</string>
+    <string name="proceed_next">Proceed NEXT</string>
+    <string name="doctor">Doctor</string>
+    <string name="fmcg">FMCG</string>
+    <string name="profile">Profile</string>
+    <string name="add_info">Add Information</string>
+    <string name="free_shiping">Free shipping</string>
+    <string name="shiping_address">Shipping Address</string>
+    <string name="skip">skip</string>
+    <string name="vendor_email">Vendor Email</string>
+    <string name="vendor_email_c">Vendor Email :</string>
+    <string name="response_id">Response Id :</string>
+    <string name="vendor_id">Vendor Id :</string>
+    <string name="messages">Messages</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="subscr_text">Your subscription Starts from 0000-00-00 &amp; End Date is 2018-11-10
+    </string>
+    <string name="plan_good_to_you">Find a Plan that\'s good for you</string>
+    <string name="change_order_status">Edit Order Status</string>
+    <string name="edit_doc_num">Add/Edit Docket No.</string>
+    <string name="messages_c">Message :</string>
+    <!--    <string name="messages_c">"<b>"Message :"</b>" Please send the consignment back we will refund you
+    </string>-->
+    <string name="date_c">Date :</string>
+    <string name="medideals">Medideals</string>
+    <string name="my_acc">My Account</string>
+    <string name="all_prod">All Products</string>
+    <string name="consignment">Please send the consignment</string>
+    <string name="refund_back">back we will refund you</string>
+    <string name="invoice_no">Invoice No :</string>
+    <string name="order_no">Order Number :</string>
+    <string name="order_no_">Order No :</string>
+    <string name="bill_to">Bill To :</string>
+    <string name="ship_to">Ship To :</string>
+    <string name="address">Address :</string>
+    <string name="addres">Address</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="email_colon">Email :</string>
+    <string name="total_price">Total Price :</string>
+    <string name="product_details">Product Details :</string>
+    <string name="order_date">Order Date :</string>
+    <string name="product_name">Product Name :</string>
+    <string name="price_per_item">Price per Item :</string>
+    <string name="qty">Quantity :</string>
+    <string name="new_price_c">New Price :</string>
+    <string name="price_c">Price :</string>
+    <string name="mrp">MRP :</string>
+    <string name="mrp_d">MRP.</string>
+    <string name="order_status">Order Status :</string>
+    <string name="shipment_dockment_no">Shipment Dockment Number :</string>
+    <string name="delivered">Delivered</string>
+    <string name="confirm_pending">Confirmation Pending</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_order_status">Edit Order Status</string>
+    <string name="company">Company :</string>
+    <string name="customer_no">Customer Number :</string>
+    <string name="total_amt">Total Amount :</string>
+    <string name="total_c">Total :</string>
+    <string name="subtotal_c">SubTotal :</string>
+    <string name="money_status">Money Status :</string>
+    <string name="choose_files">Choose file</string>
+    <string name="choose_prod_files">Choose product image file</string>
+    <string name="money_rec">Money Received</string>
+    <string name="pending">Pending</string>
+    <string name="awaited">Awaited</string>
+    <string name="add_edit_docker_no">Add/Edit Docket No.</string>
+    <string name="docket_no">Docket Number</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="proceedPay_checkout">Next - Proceed To Payment</string>
+    <string name="payInfo_checkout">Next - Payment Info</string>
+    <string name="by_medideals">by Medideals</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_desc">Enter product description</string>
+    <string name="select_product_cat">Select product category</string>
+    <string name="select">Select</string>
+    <string name="enter_shop_plot_no">EnterShop No./Plot No.</string>
+    <string name="enter_colony_street_loc">Enter Colony/Street/Locality</string>
+
+    <string name="enter_below_info">Enter the below informations
+        <font color='red'>*</font>
+    </string>
+    <string name="enter_info_below">Enter the information below
+        <font color='red'>*</font>
+    </string>
+
+    <string name="shop_plot_no">Shop No./Plot No.
+        <font color='gray'>*</font>
+    </string>
+
+    <string name="colony_street_loc">Colony/Street/Locality
+        <font color='gray'>*</font>
+    </string>
+
+    <string name="city_star">City
+        <font color='gray'>*</font>
+    </string>
+
+    <string name="country_star">Country
+        <font color='gray'>*</font>
+    </string>
+
+    <string name="lets_get_started">Let\'s get Started</string>
+    <string name="rights_reserved">Medideals &#169; 2019 All rights reserved</string>
+    <string name="edit_">Edit</string>
+    <string name="upload_product">Upload Product</string>
+    <string name="comp_name">Company name</string>
+    <string name="checkout">Checkout</string>
+    <string name="go_to_cart">Go To Cart</string>
+    <string name="delete">Delete</string>
+    <string name="add_loc">Add Location</string>
+    <string name="view_loc">View Location</string>
+    <string name="min_order_qty_">Minimum order quantity</string>
+    <string name="qty_in_invent">Quantity in inventory</string>
+    <string name="total_dis">Total Discounted</string>
+    <string name="dis_price_">Discounted Price</string>
+    <string name="dis_percentage">Discounted %</string>
+    <string name="disc_percentage">Discount %</string>
+    <string name="max_retail_price_">Maximum Retail Price</string>
+
+
+    <string name="dashboard">Dashboard</string>
+    <string name="business_name">Business Name</string>
+    <string name="enter_business_name">Enter Business Name</string>
+    <string name="shop_no">Shop No./Plot No.</string>
+    <string name="street_name">Street Name</string>
+    <string name="city">City</string>
+    <string name="lic_number">License Number</string>
+    <string name="lic_no">License No.</string>
+    <string name="gst_number">GST Number</string>
+    <string name="gst_no">GST No.</string>
+    <string name="fssai_no">FSSAI Number</string>
+    <string name="user_type">User Type</string>
+    <string name="website_url">Website URL</string>
+    <string name="list_products">LIST PRODUCTS</string>
+    <string name="signup_activate">SIGNUP AND ACTIVATE</string>
+    <string name="instant_payments">INSTANT PAYMENTS</string>
+    <string name="payment">PAYMENT</string>
+    <string name="sel_payment_method">Select Payment Method</string>
+    <string name="sell_accross_india">SELL ACCROSS INDIA</string>
+    <string name="fill_all_details">Fill all the details, get verified &amp; activated in few minutes</string>
+    <string name="pay_processed_instantly">Our payments processed instantly after goods delevered!</string>
+    <string name="max_online_sales">Maximise online sales, attract buyers &amp; achieve higher conversions.</string>
+    <string name="product_self_serve">Uploading your product is really simple through our self-serve tool.</string>
+
+
+    <string name="id">Id</string>
+    <string name="edit">Edit</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="track_order">Track Order</string>
+    <string name="enter_bank_name">Enter Bank Name</string>
+    <string name="bank_acc">Bank Account</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="netbanking">(NET-BANKING,WALLET, UPI etc)</string>
+    <string name="enter_bank_acc">Enter Bank Account No.</string>
+    <string name="ifsc_code">Ifsc Code</string>
+    <string name="enter_ifsc_code">Enter IFSC Code</string>
+    <string name="ph_no">Phone Number</string>
+    <string name="phone">Phone</string>
+    <string name="registered_alert">Have you registered on medideals? If not please do it now.</string>
+    <string name="not_mem_medideals">You are not a member of Medideals.</string>
+    <string name="enter_phone">Enter Phone Number</string>
+    <string name="enter_ph_no">Enter Phone Number</string>
+    <string name="insert_date">Insert Date</string>
+    <string name="firm_no">Firm Number</string>
+    <string name="upi_no">Phone Upi</string>
+    <string name="enter_upi_no">Enter UPI No.</string>Vendor_id
+    <string name="vendorid">Vendor Id</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="to_continue">--- to continue ---</string>
+    <string name="join_us_order">Join us to place a order.</string>
+    <string name="bank_address">Bank Address</string>
+    <string name="enter_bank_address">Enter Bank Address</string>
+    <string name="sel_state">Select State</string>
+    <string name="sel_city">Select City</string>
+    <string name="sel_brand">Select Brand</string>
+    <string name="search_prod">Search Product</string>
+    <string name="login_signup">Login / Sign Up</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="most_dis">Most Discounted</string>
+    <string name="latest_prod">Latest Products</string>
+    <string name="ayurvedic">Ayurvedic</string>
+    <string name="allopathic">Allopathic</string>
+    <string name="generics">Generics</string>
+    <string name="seller_zone">Seller Zone</string>
+    <string name="selling_details">Selling Details</string>
+    <string name="buyer_zone">Buyer Zone</string>
+    <string name="buying_details">Buying Details</string>
+    <string name="subscription">Subscription</string>
+    <string name="wholeseller_zone">Wholeseller Zone</string>
+    <string name="add_roduct">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="update">Update</string>
+    <string name="enquiry_form">Enquiry Form</string>
+    <string name="cust_enquiry_form">Customer Enquiries Form</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="order_received">Order \nReceived</string>
+    <string name="order_rec">Order Received</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="show_all__roduct">Show all Products</string>
+    <string name="show_responses">Show Responses</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="contin">Continue</string>
+    <string name="add_to_cart">Add To Cart"</string>
+    <string name="del_loc">Delivery Locations:</string>
+    <string name="categories">Categories:</string>
+    <string name="min_order_qty">Minimum Order Quantity:</string>
+    <string name="dis_price">Discounted Price:</string>
+    <string name="max_retail_price">Max Retail Price:</string>
+    <string name="discount">Discount</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_price">Filter by Price</string>
+    <string name="filter_by_dis">Filter by Discount</string>
+    <string name="filter_by_comp">Filter by Company</string>
+    <string name="shipment_state">Shipment State</string>
+    <string name="shipment_city">Shipment City</string>
+    <string name="shipping">Shipping</string>
+
+    <string name="email_empty">Please Enter Email</string>
+    <string name="ph_empty">Please Enter Mobile Number</string>
+    <string name="email_invalid">Please enter Valid Email</string>
+    <string name="ph_invalid">Please Enter Valid Mobile number</string>
+    <string name="password_empty">Please Enter Password</string>
+    <string name="name_empty">Please Enter Userame</string>
+    <string name="msg_empty">Please Enter Message</string>
+    <string name="image_empty">Please set profile image</string>
+
+    <string name="prod_name">Please Enter Product Name</string>
+    <string name="prod_desc">Please Enter Product Description</string>
+    <string name="sel_prod_cat">Please Select Product Category</string>
+    <string name="max_retailPrice">Please Enter Maximum Retail Price</string>
+    <string name="disPrice">Please Enter Discounted Price</string>
+    <string name="totalDis_price">Please Enter Total Discounted Price</string>
+    <string name="inv_qty">Please Enter Inventory Quantity</string>
+    <string name="min_orderQty">Please Enter Minimum Order Quantity</string>
+    <string name="company_name">Please Enter Company Name</string>
+
+    <string name="businessname_empty">Please Enter Business Name</string>
+    <string name="shopNo_empty">Please Enter Shop Number</string>
+    <string name="streetname_empty">Please Enter Street Name</string>
+    <string name="cityname_empty">Please Enter City Name</string>
+    <string name="licnum_empty">Please Enter License Number</string>
+    <string name="gstnum_empty">Please Enter GST Number</string>
+    <string name="dis_prc">Discounted Price</string>
+
+
+    <string name="total_listed_products">Total Listed Products</string>
+    <string name="total_active_products">Total Active Products</string>
+    <string name="total_inactive_products">Total Inactive Products</string>
+    <string name="sub_end_date">Subscription End Date</string>
+    <string name="total_orders_rec">Total Orders Received</string>
+    <string name="total_orders_dispatch">Total Orders Dispatched</string>
+    <string name="total_orders_placed">Total Orders Placed</string>
+    <string name="total_orders_del">Total Orders Delivered</string>
+    <string name="total_orders_return">Total Orders Return</string>
+    <string name="total_revenue">Total Revenue</string>
+    <string name="total_money_escrow">Total Money in Escrow</string>
+    <string name="total_prod_rec">Total Products Received</string>
+    <string name="total_prod_return">Total Products Returned</string>
+    <string name="total_money_spend">Total Money Spend</string>
+    <string name="last_order">Last Order</string>
+
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="push_noti">Push Notifications</string>
+    <string name="push_noti_details">Switch push notifications "on" to get instant information about special deals in
+        your area!
+    </string>
+
+    <string name="some_error">Some Error Occurred</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="surgical_goods">Surgical Goods</string>
+    <string name="surgical_goods_nxt">Surgical \nGoods</string>
+    <string name="pcd_party">PCD/3rd Party</string>
+    <string name="pcd_party_nxt">PCD/3rd \nParty</string>
+    <string name="third_party_manuf">Third Party Manufacturer</string>
+    <string name="wholeseller">WholeSeller</string>
+    <string name="check_edit_inf">Please check/edit the below information</string>
+    <string name="choose_max_two">Please choose one or maximum two account types to proceed further</string>
+    <string name="choose_more_categories">Please choose one or more categories \nto proceed further</string>
+    <string name="ask_resend_again">Resend again</string>
+    <string name="enter_mobile_number">Please enter 10 Digit Mobile Number</string>
+    <string name="enter_personal_info">Please fill your personal information</string>
+    <string name="fill_below_info">Please fill the below information</string>
+    <string name="code_sent">Please type the verification code sent to +91</string>
+    <string name="enter_mobile_number_email_address">Please enter 10 Digit Mobile Number \nand Email Address to
+        register
+    </string>
+
+
+    <string-array name="prod_categories">
+        <item>Select product category</item>
+        <item>Allopathic</item>
+        <item>Ayurvedic</item>
+        <item>FMCG</item>
+        <item>PCD/3rd Party</item>
+        <item>Surgical Goods</item>
+        <item>Generics</item>
+    </string-array>
+
+</resources>

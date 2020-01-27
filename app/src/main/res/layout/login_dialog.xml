@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/_14sdp"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color_textcolor_blackish"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/registered_alert"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone"
+                android:textColor="@color/color_textcolor_blackish"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/join_us_order"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="@color/color_light_brown"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/to_continue"/>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="horizontal">
+            <RelativeLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_marginRight="@dimen/_4sdp"
+                    android:id="@+id/rel_login_viewCart"
+                    android:background="@drawable/rounded_circled_theme_full">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="@string/login"
+                        android:textColor="@color/colorWhite"
+                        android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:id="@+id/rel_register_viewCart"
+                    android:background="@drawable/rounded_circled_theme_full">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="@string/register"
+                        android:textColor="@color/colorWhite"
+                        android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

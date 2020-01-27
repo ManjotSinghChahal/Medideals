@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:background="@drawable/rounded_layout_back">
+
+
+        <RelativeLayout
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:id="@+id/img_logo_viewcart"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@drawable/semi_rounded_white_full">
+
+            <ImageView
+                    android:layout_width="@dimen/_36sdp"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/logo"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:layout_toRightOf="@+id/img_logo_viewcart"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOSIROL POWDER"
+                        android:id="@+id/productName_viewCart"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 0"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginBottom="@dimen/_6sdp"
+                        android:layout_below="@+id/productName_viewCart"
+                        android:id="@+id/productPrice_viewCart"
+                        android:textColor="@color/color_textcolor_blackish"
+                        android:textSize="@dimen/_10sdp"/>
+
+                <ImageView
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/delProduct_viewCart"
+                        android:src="@drawable/recycle_bin"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/min_order_qty"
+                        android:id="@+id/txt_qty_viewCart"
+                        android:textColor="@color/color_textcolor_blackish"
+                        android:textSize="@dimen/_10sdp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:id="@+id/minQty_viewCart"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:layout_toRightOf="@+id/txt_qty_viewCart"
+                        android:textColor="@color/color_textcolor_blackish"
+                        android:textSize="@dimen/_10sdp"/>
+
+                <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true">
+
+                    <ImageView
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/minus_viewCart"
+                            android:background="@drawable/minus_black">
+                    </ImageView>
+
+
+                    <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/minus_viewCart"
+                            android:text="1"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:background="@null"
+                            android:layout_marginLeft="@dimen/_6sdp"
+                            android:layout_marginRight="@dimen/_6sdp"
+                            android:textSize="@dimen/_14sdp"
+                            android:id="@+id/qty_viewCart"
+                            android:textColor="@color/colorBlack"
+                            android:layout_centerVertical="true"/>
+
+
+                    <ImageView
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="@dimen/_22sdp"
+                            android:id="@+id/plus_viewCart"
+                            android:layout_toLeftOf="@+id/qty_viewCart"
+                            android:background="@drawable/add_black">
+                    </ImageView>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

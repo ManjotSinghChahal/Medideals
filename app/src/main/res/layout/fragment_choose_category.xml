@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colortheme">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                <ImageView android:layout_width="@dimen/_20sdp"
+                           android:layout_height="@dimen/_20sdp"
+                           android:layout_marginTop="@dimen/_30sdp"
+                           android:layout_marginLeft="@dimen/_20sdp"
+                           android:layout_marginRight="@dimen/_20sdp"
+                           android:id="@+id/backBtn_chooseCategory"
+                           android:src="@drawable/back_icon"/>
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_23sdp"
+                        android:layout_marginTop="@dimen/_50sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/choose_a_category"/>
+
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:orientation="horizontal">
+                    <View
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="4dp"
+                            android:background="@drawable/round_white_full"></View>
+
+
+                    <View
+                            android:layout_width="@dimen/_32sdp"
+                            android:layout_height="5dp"
+                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:background="@drawable/round_white_full"></View>
+
+                </LinearLayout>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_26sdp"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/_13sdp"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:layout_marginBottom="@dimen/_16sdp"
+                        android:text="@string/choose_more_categories"/>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:id="@+id/allopathic_chooseCategory"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:id="@+id/img_allopathic"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:src="@drawable/allopathic"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBlack"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/img_allopathic"
+                                android:textSize="@dimen/_11sdp"
+                                android:text="@string/allopathic"/>
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:visibility="gone"
+                                android:id="@+id/img_allopathic_chooseCat"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/ayurvedic_chooseCategory"
+                                    android:layout_marginLeft="@dimen/_8sdp"
+                                    android:layout_marginRight="@dimen/_8sdp">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/img_ayurvedic"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:src="@drawable/ayurvedic"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="@dimen/_11sdp"
+                                android:layout_below="@+id/img_ayurvedic"
+                                android:textColor="@color/colorBlack"
+                                android:text="@string/ayurvedic"/>
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:visibility="gone"
+                                android:id="@+id/img_ayurvedic_chooseCategory"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:id="@+id/fmcg_chooseCategory"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:id="@+id/img_fmcg_cat"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/customer"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/_11sdp"
+                                android:id="@+id/txt_company"
+                                android:layout_below="@+id/img_fmcg_cat"
+                                android:gravity="center_horizontal"
+                                android:text="@string/fmcg"/>
+
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:visibility="gone"
+                                android:id="@+id/img_fmcg_chooseCategory"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_95sdp"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:id="@+id/thirdParty_chooseCategory"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:id="@+id/img_thirdParty_cat"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:src="@drawable/pharmacy"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBlack"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/img_thirdParty_cat"
+                                android:textSize="@dimen/_11sdp"
+                                android:text="@string/pcd_party"/>
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:visibility="gone"
+                                android:id="@+id/img_thirdParty_chooseCategory"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/surgicalFoods_chooseCategory"
+                                    android:layout_marginLeft="@dimen/_8sdp"
+                                    android:layout_marginRight="@dimen/_8sdp">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/img_surgical_goods"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:src="@drawable/scissor"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="@dimen/_11sdp"
+                                android:layout_below="@+id/img_surgical_goods"
+                                android:textColor="@color/colorBlack"
+                                android:text="@string/surgical_goods"/>
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:visibility="gone"
+                                android:id="@+id/img_surgicalFoods_chooseCategory"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:id="@+id/generics_chooseCategory"
+                                    android:background="@drawable/semi_rounded_white_full"
+                                    android:layout_height="match_parent">
+                        <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:id="@+id/img_generics"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/generic"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/_11sdp"
+                                android:layout_below="@+id/img_generics"
+                                android:gravity="center_horizontal"
+                                android:text="@string/generics"/>
+
+                        <ImageView
+                                android:layout_width="@dimen/_16sdp"
+                                android:layout_height="@dimen/_16sdp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:visibility="gone"
+                                android:id="@+id/img_generics_chooseCategory"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_6sdp"
+                                android:src="@drawable/verified"/>
+
+                    </RelativeLayout>
+
+
+
+
+                </LinearLayout>
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:layout_marginLeft="@dimen/_26sdp"
+                        android:layout_marginRight="@dimen/_26sdp"
+                        android:layout_marginBottom="@dimen/_16sdp"
+                        android:id="@+id/proceedNext_chooseCat"
+                        android:visibility="gone"
+                        android:background="@drawable/rounded_circle_corners_white">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:textColor="@color/colorWhite"
+                              android:textSize="@dimen/_16sdp"
+                              android:layout_centerInParent="true"
+                              android:text="@string/proceed_next"/>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

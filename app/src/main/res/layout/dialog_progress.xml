@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    ?
+
+    <com.agrawalsuneet.loaderspack.loaders.CircularSticksLoader
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="16dp"
+            android:layout_centerInParent="true"
+            app:circularsticks_animDuration="100"
+            app:circularsticks_firstShadowColor="#aa000000"
+            app:circularsticks_innerCircleRadius="10dp"
+            app:circularsticks_noOfSticks="32"
+            android:visibility="gone"
+            app:circularsticks_outerCircleRadius="30dp"
+            app:circularsticks_secondShadowColor="#77000000"
+            app:circularsticks_selectedStickColor="@color/colorBlack"
+            app:circularsticks_showRunningShadow="true"
+            app:circularsticks_stickColor="@color/color_light_grey"/>
+
+    <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:id="@+id/loader_img"
+            android:layout_centerInParent="true"
+    android:background="@drawable/logo"/>
+
+</RelativeLayout>

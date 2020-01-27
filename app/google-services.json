@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822216080852",
+    "firebase_url": "https://passproject-33d0a.firebaseio.com",
+    "project_id": "passproject-33d0a",
+    "storage_bucket": "passproject-33d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822216080852:android:716c1fc9314ce2d6",
+        "android_client_info": {
+          "package_name": "com.example.medideals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822216080852-8i2o12ct73dbnj8pp0vrg0pdou6l2ore.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medideals",
+            "certificate_hash": "355c4bfedb7ac4f3fadfc49540d1448ed4f505e0"
+          }
+        },
+        {
+          "client_id": "822216080852-5af8r2iq15raog0d0m7qdgdj2i0hj682.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OqROR9DYZd92QkGRvNoingccj4FL0HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822216080852-5af8r2iq15raog0d0m7qdgdj2i0hj682.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

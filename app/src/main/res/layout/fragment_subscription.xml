@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_layout_back"
+        android:id="@+id/rootSubscription"
+        tools:context=".ui.activities.home.subscription.Subscription">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/plan_good_to_you"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            android:id="@+id/recyclerview_subscription">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/subscr_text"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

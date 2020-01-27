@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_back"
+            android:id="@+id/lin_prodDet_latestProd"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_4sdp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_11sdp"
+                    android:maxLines="2"
+                    android:id="@+id/txt_title_latestProd"
+                    android:textStyle="bold"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_2sdp"
+                    android:paddingRight="@dimen/_2sdp"
+                    android:text="DUPHASHTON 10MG"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_2sdp"
+                android:paddingRight="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginBottom="@dimen/_6sdp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_grey"
+                    android:id="@+id/txt_disAmt_latestProd"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Rs 555.8"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/txt_amt_latestProd"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Rs 389.06"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_2sdp"
+                android:paddingRight="@dimen/_2sdp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:singleLine="true"
+                    android:layout_marginRight="@dimen/_80sdp"
+                    android:id="@+id/txt_brand_latestProd"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="GAIA"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_toLeftOf="@+id/txt_dis_latestProd"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="@string/discount"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_dis_latestProd"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textColor="@color/color_red_dark"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="49%"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:id="@+id/rel_buyNow_latProd"
+                android:background="@color/colortheme">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/txt_buyNow_latProd"
+                    android:textSize="@dimen/_12sdp"
+                    android:textAllCaps="true"
+                    android:text="@string/buy_now"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
